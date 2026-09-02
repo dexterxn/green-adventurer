@@ -1,0 +1,22 @@
+/* The page is just a frame for the Phaser canvas - all the real drawing
+   happens in js/data/backgrounds.js and the room files. */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #0d120c;
+    overflow: hidden;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+    display: block;
+    image-rendering: auto;
+}
